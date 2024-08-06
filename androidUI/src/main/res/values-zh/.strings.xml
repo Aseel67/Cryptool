@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+    <string name="app_slogan"></string>
+    <string name="dialog_create"></string>
+    <string name="dialog_edit">修改</string>
+    <string name="dialog_cancel">取消！</string>
+    <string name="snackbar_retry">重试</string>
+    <string name="select_all">全选</string>
+    <string name="unselect_all">取消全选</string>
+    <string name="more_options_icon_description">更多选项</string>
+    <string name="shortcut_title">Cryptool 悬浮窗</string>
+    <string name="shortcut_description">以悬浮窗模式打开 Cryptool</string>
+    <string name="unexpected_error">发生意外错误，请报告问题</string>
+    <string name="service_permission_error">悬浮窗模式无法启动，因为没有权限</string>
+    <string name="service_unexpected_error">打开悬浮窗模式时出错，请报告错误</string>
+    <string name="input_minimum_length">最小长度为 %1$d</string>
+<string name="version_20_description">• 支持新语言。
+                                       \n• 新的对话搜索功能。
+                                       \n• 修复发送长短信的问题。
+                                       \n• 修复稳定性问题。</string>
+<string name="version_19_description">• 新的主菜单选项，可以启用/禁用生物识别访问。
+                                       \n• 修复生物识别访问问题。你可能需要再次启用它。</string>
+<string name="version_18_description">• 支持其他应用与 Cryptool 共享数据。
+                                       \n• 实现用户反馈。
+                                       \n• 修复稳定性问题。</string>
+<string name="version_15_description">• 新消息源：局域网（LAN）。
+                                       \n• 修复某些安卓版本上的稳定性问题。</string>
+<string name="version_10_description">• 新的现代用户界面。
+                                       \n• 支持新的加密算法。
+                                       \n• 新的消息源：手动、短信和文件。
+                                       \n• 多重加密配置作为对话。
+                                       \n• 支持生物识别身份验证。
+                                       \n• 改进的导出/导入功能。</string>
+<string name="version_4_description">• 修复剪贴板清理错误。
+                                       \n• 支持新语言。</string>
+<string name="version_3_description">• 黑暗主题功能。
+                                       \n• 忘记访问 PIN 功能。
+                                       \n• 更改 PIN 功能。
+                                       \n• 导出和导入功能。</string>
+<string name="version_2_description">• 密钥库功能。
+                                       \n• 访问 PIN 功能。
+                                       \n• 小错误修复。</string>
+<string name="version_1_description">• 你好世界！</string>
+<string name="welcome_main_description">此工具旨在帮助你保护最重要的信息。我们不会隐藏任何后台操作，我们展示算法和数据输入/输出的实际情况。\n\n这是一个非营利的开源解决方案，我们对你的数据不感兴趣。无论如何，我们不要求你信任，我们要求你<b>阻止</b>互联网访问，<b>审查</b>代码，甚至自己<b>构建</b>应用程序。\n\n如果你发现任何问题，有任何建议或想要合作，请随时联系我们。我们将非常感激🙂</string>
+    <string name="welcome_changelog_title">更新内容</string>
+    <string name="welcome_tutorial_title">教程</string>
+    <string name="welcome_tutorial_message_1">欢迎来到您的第一个加密对话</string>
+    <string name="welcome_tutorial_message_2">您在此处写的所有内容都使用加密配置进行加密</string>
+    <string name="welcome_tutorial_message_3">所有应用程序数据都经过加密并使用您的访问代码保护</string>
+    <string name="welcome_tutorial_message_4">即便如此，我们仍然建议对剪贴板特别小心，并在不再使用时停止应用程序</string>
+<string name="gatekeeper_open_action">打开</string>
+<string name="gatekeeper_open_biometrics_icon_description">使用生物识别打开</string>
+<string name="gatekeeper_hide_icon_description">隐藏代码</string>
+<string name="gatekeeper_show_icon_description">显示代码</string>
+<string name="gatekeeper_set_code_label">设置一个代码来控制应用访问</string>
+<string name="gatekeeper_enable_biometrics">使用生物识别访问：</string>
+<string name="gatekeeper_set_code_action">设置</string>
+<string name="gatekeeper_do_not_remember">我不记得了</string>
+<string name="gatekeeper_delete_code_dialog_title">重置</string>
+<string name="gatekeeper_delete_code_dialog_description">您即将删除所有存储的数据并重新开始。您想继续吗？</string>
+<string name="gatekeeper_delete_code_dialog_action">删除</string>
+<string name="gatekeeper_access_invalid_error">访问被拒绝</string>
+<string name="gatekeeper_access_biometric_too_many_attempts_error">您尝试访问次数过多，现需等待一段时间才能再次使用生物识别访问</string>
+<string name="change_biometric_topbar_title">更改生物识别访问</string>
+<string name="change_access_topbar_title">更改访问代码</string>
+<string name="change_access_description">我们需要重新加密所有数据以更改访问代码，建议您预先导出备份。此过程可能需要几秒钟，请勿在此期间关闭屏幕。
+\n\n如果您使用生物识别访问，可能需要使用它。\n</string>
+<string name="change_access_old_code_hint">当前访问代码</string>
+<string name="change_access_new_code_hint">新访问代码</string>
+<string name="change_access_change_action">更改</string>
+<string name="change_access_old_code_error">当前访问代码无效</string>
+<string name="change_access_error">更改代码时发生意外错误，请检查一切正常后重试</string>
+<string name="password_topbar_title">密码</string>
+<string name="password_empty_label">您没有密码</string>
+<string name="password_new_title">新密码</string>
+<string name="password_edit_title">编辑密码</string>
+<string name="password_hide_icon_description">隐藏密码</string>
+<string name="password_show_icon_description">显示密码</string>
+<string name="password_random_icon_description">生成随机密码</string>
+<string name="password_name_hint">名称</string>
+<string name="password_password_hint">密码</string>
+<string name="password_tags_hint">标签（用逗号分隔）</string>
+<string name="password_copy_icon_description">复制密码</string>
+<string name="password_delete_icon_description">删除密码</string>
+<string name="password_delete_dialog_title">删除密码</string>
+<string name="password_delete_dialog_description">您即将删除此密码。您想继续吗？</string>
+<string name="password_delete_dialog_action">删除</string>
+<string name="password_bottombar_create_icon_description">创建新密码</string>
+<string name="main_empty_label">您没有加密对话</string>
+<string name="main_encryption_favorite_icon_description">此加密对话是收藏夹</string>
+<string name="main_set_favorites_icon_description">设置对话为收藏夹</string>
+<string name="main_unset_favorites_icon_description">取消对话收藏</string>
+<string name="main_delete_icon_description">删除对话</string>
+<string name="main_bottombar_finish_app_icon_description">关闭应用程序</string>
+<string name="main_bottombar_open_overlay_icon_description">打开悬浮窗模式</string>
+<string name="main_bottombar_open_passwords_icon_description">转到密码</string>
+<string name="main_bottombar_clear_clipboard_icon_description">清空剪贴板</string>
+<string name="main_bottombar_create_icon_description">创建新的加密对话</string>
+<string name="main_bottombar_open_full_icon_description">全屏模式打开</string>
+<string name="main_open_overlay_permission_error">如果你想使用覆盖模式，你必须授予“显示在其他应用上层”的权限。</string>
+<string name="main_open_overlay_permission_action">设置</string>
+<string name="main_notify_new_github_version">GitHub 上有一个新的 Cryptool 版本可用</string>
+<string name="main_notify_new_github_version_download">下载</string>
+<string name="main_notify_certificate_unknown">警告！无法验证应用的签名证书</string>
+<string name="main_notify_certificate_invalid_title">无效的应用证书！</string>
+<string name="main_notify_certificate_invalid_message">应用的签名证书与预期不符，这可能是一个重大的安全漏洞。请重新下载应用以提高安全性。</string>
+<string name="algorithms_topbar_title">加密算法</string>
+<string name="algorithms_see_source_code_action">查看源代码</string>
+<string name="algorithms_introduction">了解更多关于加密算法的工作原理。Cryptool 使用常见的加密算法，因此我们将参考每个算法的官方文档。我们希望增加可用算法的数量，以便你可以使用任何你想要的算法。</string>
+<string name="algorithms_v1_description">• 高级加密标准 (AES) 规范。\n• 密码块链 (CBC) 模式。\n• 基于密码的密钥导出函数 2 (PBKDF2)。\n• Base64 二进制到文本编码方案。\n\n⚠️此加密配置提供低安全性，因为密码导出代码存在一些问题。\n\n由于非常特定的密码导出配置和盐值计算，很难（不是不可能）在其他工具中使用此配置。</string>
+<string name="algorithms_v2_description">• 高级加密标准 (AES) 256 规范。\n• Galois/Counter Mode (GCM) 模式。\n• Argon2 密钥导出函数。\n• Base64 二进制到文本编码方案。\n\n你可以很容易地在其他工具中使用此配置，只需要知道如何识别文本的每个部分：</string>
+<string name="main_export_dialog_title">导出数据</string>
+<string name="main_export_dialog_action">导出</string>
+<string name="main_import_dialog_title">导入数据</string>
+<string name="main_import_dialog_action">导入</string>
+<string name="main_import_dialog_encryptions">对话定义</string>
+<string name="main_import_dialog_messages">消息</string>
+<string name="main_import_dialog_passwords">密码</string>
+<string name="main_import_dialog_code_hint">安全代码</string>
+<string name="main_import_dialog_code_caption">留空以使用你的访问代码</string>
+<string name="main_import_dialog_hide_code_icon_description">隐藏代码</string>
+<string name="main_import_dialog_show_code_icon_description">显示代码</string>
+<string name="export_in_progress_snackbar">正在导出…</string>
+<string name="export_success_snackbar">导出成功完成</string>
+<string name="export_error_snackbar">导出过程失败，请重试，如果再次失败，请报告错误</string>
+<string name="import_in_progress_snackbar">正在导入…</string>
+<string name="import_success_empty_snackbar">没有可导入的内容</string>
+<string name="import_error_snackbar">导入过程失败，请检查文件和代码是否正确，重试，如果再次失败，请报告错误</string>
+<string name="import_success_snackbar" tools:ignore="PluralsCandidate">导入成功完成：%1$d 个对话定义，%2$d 条消息，和 %3$d 个密码</string>
+<string name="encryption_new_title">新的加密对话</string>
+<string name="encryption_edit_title">编辑加密对话</string>
+<string name="encryption_name_hint">名称</string>
+<string name="encryption_password_hint">密码</string>
+<string name="encryption_hide_password_icon_description">隐藏密码</string>
+<string name="encryption_show_password_icon_description">显示密码</string>
+<string name="encryption_algorithm_label">算法：</string>
+<string name="encryption_change_source_icon_description">更改消息源</string>
+<string name="encryption_hide_messages_icon_description">隐藏消息</string>
+<string name="encryption_show_messages_icon_description">显示消息</string>
+<string name="encryption_show_favorites_only_icon_description">仅显示收藏的消息</string>
+<string name="encryption_show_all_icon_description">显示所有消息</string>
+<string name="encryption_set_favorites_icon_description">将消息设为收藏</string>
+<string name="encryption_unset_favorites_icon_description">取消收藏消息</string>
+<string name="encryption_delete_messages_icon_description">删除消息</string>
+<string name="encryption_message_favorite_icon_description">此消息为收藏</string>
+<string name="encryption_receive_message_error">消息无法接收，请检查密码、算法…</string>
+<string name="encryption_exclusive_source_error">配置的源与其他加密冲突，此源不允许这样。</string>
+<string name="encryption_send_message_file_error">无法通过配置的文件发送消息。</string>
+<string name="encryption_send_message_lan_error">无法通过局域网网络发送消息。</string>
+<string name="encryption_receive_message_lan_error">来自‘%1$s’的消息已接收但无法处理，请检查密码、算法…</string>
+<string name="encryption_send_message_hint">你的消息</string>
+<string name="encryption_send_message_icon_description">发送</string>
+<string name="encryption_receive_message_hint">%1$s的消息</string>
+<string name="encryption_receive_message_icon_description">接收</string>
+<string name="encryption_message_copy_encrypted">复制加密消息</string>
+<string name="encryption_message_copy_plain">复制消息</string>
+<string name="encryption_message_copy_icon_description">复制</string>
+<string name="encryption_source_manual_title">手动</string>
+<string name="encryption_source_manual_description">自行处理通信的输入和输出。</string>
+<string name="encryption_source_lan_title">局域网</string>
+<string name="encryption_source_lan_description">在连接的局域网内通信。应用停止时会忘记。</string>
+<string name="encryption_source_file_title">文件</string>
+<string name="encryption_source_file_description">使用两个文件进行通信。你可以自动同步并分享文件以实现实时通信。</string>
+<string name="encryption_source_sms_not_available">由于 Google Play 的限制，无法提供此功能。选择此选项了解更多信息。</string>
+<string name="encryption_source_sms_title">短信</string>
+<string name="encryption_source_sms_description">使用你的短信服务提供商。此选项可能会产生费用，具体取决于你与提供商的合同。</string>
+<string name="encryption_sms_sent_snackbar">短信已发送</string>
+<string name="encryption_sms_delivered_snackbar">短信已送达</string>
+<string name="encryption_source_lan_dialog_title">局域网源</string>
+<string name="encryption_source_lan_dialog_you_section">你的地址</string>
+<string name="encryption_source_lan_dialog_you_port">%1$d（端口）</string>
+<string name="encryption_source_lan_dialog_you_slot">%1$d（槽位）</string>
+<string name="encryption_source_lan_dialog_other_section">目标地址</string>
+<string name="encryption_source_lan_dialog_other_address">地址</string>
+<string name="encryption_source_lan_dialog_other_port">端口</string>
+<string name="encryption_source_lan_dialog_other_slot">槽位</string>
+<string name="encryption_source_lan_dialog_qr_mode">QR 模式</string>
+<string name="encryption_source_lan_dialog_manual_mode">手动模式</string>
+<string name="encryption_source_lan_dialog_qr_scan">扫描 QR</string>
+<string name="encryption_source_lan_dialog_qr_scan_error">在图像中未找到有效配置的 QR</string>
+<string name="encryption_source_sms_dialog_title">短信源</string>
+<string name="encryption_source_sms_dialog_phone">电话号码</string>
+<string name="encryption_source_sms_dialog_set">设置</string>
+<string name="encryption_permission_sms_dialog_title">短信权限</string>
+<string name="encryption_permission_sms_dialog_content">我们需要短信权限才能操作带有短信消息源的通道。你可以授予‘使用应用时’的权限。如果你不想授予此权限，你将不得不使用其他消息源。</string>
+<string name="encryption_permission_sms_dialog_settings">设置</string>
+<string name="encryption_source_file_dialog_title">文件源</string>
+<string name="encryption_source_file_dialog_input">包含收件箱消息的文件（来自其他人）</string>
+<string name="encryption_source_file_dialog_output">包含已发送消息的文件（来自你）</string>
+<string name="encryption_source_file_dialog_set">设置</string>
+<string name="encryption_search_hint">搜索…</string>
+<string name="encryption_search_icon_description">搜索</string>
+<string name="encryption_cancel_search_icon_description">取消搜索</string>
+<string name="about_topbar_title">关于</string>
+<string name="about_official_website">官方网站</string>
+<string name="about_source_code">源代码</string>
+<string name="about_libraries">库</string>
+<string name="about_license">版权许可证</string>
+<string name="about_certificate_unknown">警告！未知的签名证书</string>
+<string name="changelog_topbar_title">更新日志</string>
+<string name="libraries_topbar_title">库</string>
+<string name="libraries_open_library_icon_description">打开官方网站库</string>
+<string name="report_topbar_title">帮助与反馈</string>
+<string name="report_help_section">帮助</string>
+<string name="report_help_open_gh_issue">打开 GitHub 问题</string>
+<string name="report_help_email">通过电子邮件发送问题</string>
+<string name="report_feedback_section">反馈</string>
+<string name="report_feedback_google_play">撰写 Google Play 评论</string>
+<string name="report_feedback_open_gh_issue">打开 GitHub 问题</string>
+<string name="report_feedback_email">通过电子邮件发送反馈</string>
+<string name="report_description">该应用程序的开发是非盈利的。你可以通过多种方式支持我们。留下评论，分享项目，报告问题，帮助开发和翻译。</string>
+<string name="legacy_migration_topbar_title">欢迎使用 Cryptool 3.0</string>
+<string name="legacy_migration_description">这是一次重大更新，带来了许多改进：安全修复、现代用户界面、集成和更多功能。</string>
+<string name="legacy_migration_section">迁移</string>
+<string name="legacy_migration_migration_details">你需要将数据迁移到新版本。别担心，这不是破坏性迁移，你的数据不会被删除，因此如果出现问题你可以降级并报告任何问题。\n\n另一方面，导入功能支持任何版本的文件。\n\n你需要设置一个新的访问代码来完成迁移。</string>
+<string name="legacy_migration_action">开始迁移</string>
+<string name="cb_copy_success_snackbar">成功复制到剪贴板</string>
+<string name="cb_copy_empty_snackbar">没有要复制的文本</string>
+<string name="cb_clear_success_snackbar">剪贴板清除成功</string>
+</resources>
